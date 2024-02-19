@@ -1,0 +1,261 @@
+/********************************************** ALL USED IN facilities PAGE ********************************************************************************/
+
+body{
+    justify-content: center;
+    overflow-y: scroll;
+    background-color: rgb(199, 163, 85);
+    background-image: url('facilities.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.navbar-light{
+    height: 100px
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background: url('left.jpg') ;
+    background-size:cover;
+}
+
+h1{
+    color:rgb(107, 107, 107);
+    text-align: center;
+    font-family: 'Georgia', 'Times New Roman', 'Times', 'serif';
+}
+
+.book {
+    border-radius: 0ch;
+    background-image:url('kinsternaBOOK.jpg');
+    background-size:cover;
+    background-position: center;
+    padding: 160px 220px;
+    color: ivory;
+    cursor: pointer;
+    display: grid;
+    position: absolute;
+    left: 100px;
+    top: 1100px;
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.2), 0 25px 25px 0 rgba(0,0,0,0.19);
+}
+
+.book:hover{
+    overflow: hidden;
+    transition: transform .8s ease;
+    transform: scale(1.05);
+}
+
+.sign {
+    border-radius: 0ch;
+    background-image:url('kinsternaSIGN.jpg');
+    background-size:cover;
+    background-position: center;
+    padding: 160px 220px;
+    color: ivory;
+    cursor: pointer;
+    display: grid;
+    position: absolute;
+    left: 700px;
+    top: 1100px;
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.2), 0 25px 25px 0 rgba(0,0,0,0.19);
+}
+
+.sign:hover{
+    overflow: hidden;
+    transition: transform .8s ease;
+    transform: scale(1.05);
+}
+
+.white{
+    width:100%;
+    height: 600px;
+    background-image: url('white2.jpg');
+    background-repeat: repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0px;
+    top: 1000px;
+}
+
+.top{
+    width: 100%;
+    height: 90px;
+    background-image: url('white2.jpg');
+    background-repeat: repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.toplogo{
+    width: 35%;
+    height: 130px;
+    background-image: url('logoblack.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 700px;
+    top: -40px;
+}
+
+.hotel-fac{
+    position:absolute;
+    left:220px;
+    top:200px;
+}
+
+/************************* left arrow *********************************/
+
+.center-con {
+    display: flex;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.round {
+    position: absolute;
+    left:200px;
+    border: 2px solid #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    
+}
+
+#cta .arrow{left: -5%;}
+.arrow {position: absolute; bottom: 0;  margin-left:8px; width:50px; height: 50px; background-size: contain; top:3px;}
+.segunda{margin-left: 8px;}
+.next {
+	background-image: url('left.png');
+    background-size:10ch;
+    background-position:center;
+}
+
+@keyframes bounceAlpha {
+  0% {opacity: 1; transform: translateX(0px) scale(1);}
+  25%{opacity: 0; transform:translateX(10px) scale(0.9);}
+  26%{opacity: 0; transform:translateX(-10px) scale(0.9);}
+  55% {opacity: 1; transform: translateX(0px) scale(1);}
+}
+
+.bounceAlpha {
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+.arrow.primera.bounceAlpha {
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-delay:0.2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+.round:hover .arrow{
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+.round:hover .arrow.primera{
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-delay:0.2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+/************************* right arrow *********************************/
+
+.center2 {
+    display: flex;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.round2 {
+    position: absolute;
+    left:700px;
+    top:425px;
+    border: 2px solid #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    
+}
+
+#cta2 .arrow2{left: -10%;}
+.arrow2 {position: absolute; bottom: 0;  margin-left:8px; width:50px; height: 50px; background-size: contain; top:3px;}
+.segunda2{margin-left: 8px;}
+.next2 {
+	background-image: url('right.png');
+    background-size:10ch;
+    background-position:center;
+}
+
+@keyframes bounceAlpha {
+  0% {opacity: 1; transform: translateX(0px) scale(1);}
+  25%{opacity: 0; transform:translateX(10px) scale(0.9);}
+  26%{opacity: 0; transform:translateX(-10px) scale(0.9);}
+  55% {opacity: 1; transform: translateX(0px) scale(1);}
+}
+
+.bounceAlpha {
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+.arrow2.primera2.bounceAlpha {
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-delay:0.2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+.round2:hover .arrow2{
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+.round2:hover .arrow2.primera2{
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-delay:0.2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+/********************************************** ALL USED IN facilities PAGE ********************************************************************************/
+
+.hotel{
+    display: flex;
+    position: absolute;
+    top:1020px;
+    left:20px;
+    height:50px;
+}
+
+.hotel:hover {
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}

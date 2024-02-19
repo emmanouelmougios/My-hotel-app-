@@ -1,0 +1,434 @@
+/********************************************** ALL USED IN HOME PAGE ********************************************************************************/
+
+body{
+    justify-content: center;
+    overflow-y: scroll;
+    background-color: rgb(199, 163, 85);
+    background-image: url('kastro2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar-light{
+    height: 100px
+}
+
+h1{
+    color:rgb(107, 107, 107);
+    text-align: center;
+    font-family: 'Georgia', 'Times New Roman', 'Times', 'serif';
+}
+
+.book {
+    border-radius: 0ch;
+    background-image:url('kinsternaBOOK.jpg');
+    background-size:cover;
+    background-position: center;
+    padding: 160px 220px;
+    color: ivory;
+    cursor: pointer;
+    display: grid;
+    position: absolute;
+    left: 100px;
+    top: 1100px;
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.2), 0 25px 25px 0 rgba(0,0,0,0.19);
+}
+
+.book:hover{
+    overflow: hidden;
+    transition: transform .8s ease;
+    transform: scale(1.05);
+}
+
+.sign {
+    border-radius: 0ch;
+    background-image:url('kinsternaSIGN.jpg');
+    background-size:cover;
+    background-position: center;
+    padding: 160px 220px;
+    color: ivory;
+    cursor: pointer;
+    display: grid;
+    position: absolute;
+    left: 700px;
+    top: 1100px;
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.2), 0 25px 25px 0 rgba(0,0,0,0.19);
+}
+
+.sign:hover{
+    overflow: hidden;
+    transition: transform .8s ease;
+    transform: scale(1.05);
+}
+
+.white{
+    width:100%;
+    height: 600px;
+    background-image: url('white2.jpg');
+    background-repeat: repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0px;
+    top: 1000px;
+}
+
+.hotel{
+    display: flex;
+    position: absolute;
+    top:1020px;
+    left:20px;
+    height:50px;
+}
+
+@keyframes bounceAlpha {
+    0% {opacity: 1; transform: translateX(0px) scale(1);}
+    25%{opacity: 0; transform:translateX(10px) scale(0.9);}
+    26%{opacity: 0; transform:translateX(-10px) scale(0.9);}
+    55% {opacity: 1; transform: translateX(0px) scale(1);}
+}
+
+.hotel:hover {
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+.top{
+    width: 100%;
+    height: 90px;
+    background-image: url('white2.jpg');
+    background-repeat: repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.toplogo{
+    width: 35%;
+    height: 130px;
+    background-image: url('logoblack.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 700px;
+    top: -40px;
+}
+
+
+
+/********************************************** ALL USED IN HOME PAGE ********************************************************************************/
+
+/********************************************** BOOKING *********************************************************************************************/
+
+input[type=text][id="fname"]{
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text][id="lname"]{
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text][id="arrival"]{
+    position: absolute;
+    left: 700px;
+    top: 200px;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text][id="leave"]{
+    position: absolute;
+    left: 700px;
+    top: 300px;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit][value="Submit"] {
+    position: absolute;
+    left: 700px;
+    top: 400px;
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+select{
+    position: absolute;
+    left: 100px;
+    top: 410px;
+    width: 30%;
+    background-color: #d1ba6c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit][value="Submit"]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/********************************************** BOOKING *********************************************************************************************/
+
+.cancel{
+    position: absolute;
+    left: 110px;
+    top: 530px;
+    font-size: 150%;
+    font-weight: 350;
+    color:rgb(2, 2, 2);
+    text-shadow: 2px 2px #c7995386;
+}
+
+.cancel:hover{
+    text-decoration: underline;
+    color:rgb(0, 0, 0);
+}
+
+.cancelmem{
+    position: absolute;
+    left: 110px;
+    top: 700px;
+    font-size: 150%;
+    font-weight: 350;
+    color:rgb(2, 2, 2);
+    text-shadow: 2px 2px #c7995386;
+}
+
+.cancelmem:hover{
+    text-decoration: underline;
+    color:rgb(0, 0, 0);
+}
+
+input[type=submit][value="Cancel"] {
+    position: absolute;
+    left: 700px;
+    top: 400px;
+    width: 30%;
+    background-color: #d63333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit][value="Cancel"]:hover {
+    background-color: #a52626;
+}
+
+/********************************************** MEMBER *********************************************************************************************/
+
+.search{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    font-size: 200%;
+    font-weight: 350;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #e6933398;
+}
+
+input[type=text][id="fnameclient"]{
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text][id="lnameclient"]{
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text][id="arrivalclient"]{
+    position: absolute;
+    left: 100px;
+    top: 400px;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text][id="leaveclient"]{
+    position: absolute;
+    left: 100px;
+    top: 500px;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit][id="submitclient"] {
+    position: absolute;
+    left: 100px;
+    top: 600px;
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit][id="submitclient"]:hover {
+    background-color: #45a049;
+}
+
+.notfound{
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    font-size: 200%;
+    font-weight: 350;
+    text-shadow: 2px 2px #c7995386;
+}
+
+.available{
+    position: absolute;
+    left: 800px;
+    top: 150px;
+    font-size: 200%;
+    font-weight: 350;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #e6933398;
+}
+
+input[type=submit][id="freesubmit"]{
+    position: absolute;
+    left: 800px;
+    top: 300px;
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit][id="freesubmit"]:hover {
+    background-color: #45a049;
+}
+
+input[type=text][id="datefree"]{
+    position: absolute;
+    left: 800px;
+    top: 200px;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.rooms{
+    position: absolute;
+    left: 800px;
+    top: 400px;
+    font-size: 200%;
+    font-weight: 350;
+    color: rgb(63, 38, 18);
+    text-shadow: 2px 2px #e6933398;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 93%;
+    position: absolute;
+    left: 50px;
+}
+  
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #ffffff;}
+#customers tr:nth-child(odd){background-color: #ffffffdc;}
+
+#customers tr:hover {background-color: rgb(226, 211, 147);}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #af704c;
+    color: white;
+}
+
+
+/********************************************** MEMBER *********************************************************************************************/
+
